@@ -1,0 +1,35 @@
+= EXOR Embedded BSP
+
+To get the BSP you need to have `repo` installed and use it as:
+
+Install the `repo` utility:
+
+[source,console]
+$: mkdir ~/bin
+$: curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+$: chmod a+x ~/bin/repo
+
+Download the BSP source:
+
+[source,console]
+$: PATH=${PATH}:~/bin
+$: mkdir exor-yocto-3.0
+$: cd exor-yocto-3.0
+$: repo init -u https://github.com/ExorEmbedded/exor-bsp-platform -b pyro
+$: repo sync
+
+At the end of the commands you have every metadata you need to start work with.
+
+To start a simple image build:
+
+[source,console]
+$: source git/yocto-poky/oe-init-build-env build
+$: cp ../git/meta-exor/conf/bblayers.conf.sample conf/bblayers.conf
+$: cp ../git/meta-exor/conf/local.conf.sample conf/local.conf
+$: bitbake core-image-exor-x11
+
+You can use any directory to host your build.
+
+The source code is checked out at `exor-yocto-3.0/git`.
+
+
