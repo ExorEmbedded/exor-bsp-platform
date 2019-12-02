@@ -13,9 +13,9 @@ Download the BSP source:
 
 [source,console]
 $: PATH=${PATH}:~/bin
-$: mkdir exor-yocto-3.0
-$: cd exor-yocto-3.0
-$: repo init -u https://github.com/ExorEmbedded/exor-bsp-platform -b pyro
+$: mkdir exor-yocto-5.0
+$: cd exor-yocto-5.0
+$: repo init -u https://github.com/ExorEmbedded/exor-bsp-platform -b zeus
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
@@ -30,6 +30,6 @@ $: bitbake core-image-exor-x11
 
 You can use any directory to host your build.
 
-The source code is checked out at `exor-yocto-3.0/git`.
+The source code is checked out at `exor-yocto-5.0/git`.
 
 

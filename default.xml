@@ -10,10 +10,10 @@
   <remote name="OSS"        fetch="git://github.com/OSSystems" />
   <remote name="Freescale"  fetch="git://github.com/Freescale" />
   
-  <project name="meta-exor"         remote="exor"       revision="8fbffba3e7b7feca116c0253514207b7d1e8aa55" path="git/meta-exor" />
-  <project name="meta-qt5"          remote="qt5"        revision="c6aa602d0640040b470ee81de39726276ddc0ea3" path="git/meta-qt5" />
-  <project name="meta-browser"      remote="OSS"        revision="1569eeb9cc1b87632abbf35fbb05f4ac4eeb3987" path="git/meta-browser"/>
-  <project name="poky"              remote="yocto"      revision="717303e6fbcbbe181ad9645d762eb5a85d934523" path="git/yocto-poky"/>
-  <project name="meta-openembedded" remote="oe"         revision="5e82995148a2844c6f483ae5ddd1438d87ea9fb7" path="git/yocto-meta-openembedded" />
-  <project name="meta-freescale"    remote="Freescale"  revision="06178400afbd641a6709473fd21d893dcd3cfbfa" path="git/meta-freescale"   />
+  <project name="meta-exor"         remote="exor"       revision="698940a62d81a3bf6e4e9dd8b0160bad8abd7f2a" path="git/meta-exor" />
+  <project name="meta-qt5"          remote="qt5"        revision="653e12fdb522c19a7467acb85a77d8b3477671cb" path="git/meta-qt5" />
+  <project name="meta-browser"      remote="OSS"        revision="1f4ff4a3cbddff0802d809973f930ef21a3ebb54" path="git/meta-browser"/>
+  <project name="poky"              remote="yocto"      revision="24046332599cc528834df515a90babc83b7cd570" path="git/yocto-poky"/>
+  <project name="meta-openembedded" remote="oe"         revision="aad5b3d070cd8c58828b0975cf861d8ebc90f460" path="git/yocto-meta-openembedded" />
+  <project name="meta-freescale"    remote="Freescale"  revision="218e7c48e6d7b95f61a9991c0d3c3bf4b38a34c4" path="git/meta-freescale"   />
 </manifest>
