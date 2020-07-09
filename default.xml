@@ -10,7 +10,7 @@
   <remote name="OSS"        fetch="git://github.com/OSSystems" />
   <remote name="Freescale"  fetch="git://github.com/Freescale" />
   
-  <project name="meta-exor"         remote="exor"       dest-branch="zeus"   revision="0396c6a764cec67bd4ce19fafe342641d9c3bad0" path="git/meta-exor" />
+  <project name="meta-exor"         remote="exor"       dest-branch="zeus"   revision="4f38962c976f88569cd43902c92afea3fbbceece" path="git/meta-exor" />
   <project name="meta-qt5"          remote="qt5"        dest-branch="zeus"   revision="653e12fdb522c19a7467acb85a77d8b3477671cb" path="git/meta-qt5" />
   <project name="meta-browser"      remote="OSS"        dest-branch="zeus"   revision="1f4ff4a3cbddff0802d809973f930ef21a3ebb54" path="git/meta-browser"/>
   <project name="poky"              remote="yocto"      dest-branch="zeus"   revision="24046332599cc528834df515a90babc83b7cd570" path="git/yocto-poky"/>
