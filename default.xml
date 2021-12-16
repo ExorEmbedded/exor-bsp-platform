@@ -9,7 +9,7 @@
   <remote name="qt5"        fetch="git://github.com/meta-qt5" />
   <remote name="Freescale"  fetch="git://github.com/Freescale" />
   
-  <project name="meta-exor"         remote="exor"       revision="8ecc8a8141d1cd482930cba831e4535ad0c87715" path="git/meta-exor" />
+  <project name="meta-exor"         remote="exor"       revision="3c03e79dc25ed2f5fb85c1374a747465098cb8e4" path="git/meta-exor" />
   <project name="meta-qt5"          remote="qt5"        revision="bf68f8b8f5a31c9814a09f6c4e145dda7cdd8634" path="git/meta-qt5" />
   <project name="poky"              remote="yocto"      revision="fdeecc901196bbccd7c5b1ea4268a2cf56764a62" path="git/yocto-poky"/>
   <project name="meta-openembedded" remote="oe"         revision="dacfa2b1920e285531bec55cd2f08743390aaf57" path="git/yocto-meta-openembedded" />
