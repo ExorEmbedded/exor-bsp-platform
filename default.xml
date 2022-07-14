@@ -3,17 +3,13 @@
   <default remote="exor" revision="default" sync-j="4" />
 
   <!-- You can have as many remote repositories as you like -->
-  <remote name="exor"       fetch="git://github.com/ExorEmbedded" />
+  <remote name="exor"       fetch="https://github.com/ExorEmbedded" />
   <remote name="yocto"      fetch="git://git.yoctoproject.org" />
   <remote name="oe"         fetch="git://git.openembedded.org" />
-  <remote name="qt5"        fetch="git://github.com/meta-qt5" />
-  <remote name="OSS"        fetch="git://github.com/OSSystems" />
-  <remote name="Freescale"  fetch="git://github.com/Freescale" />
+  <remote name="Freescale"  fetch="https://github.com/Freescale" />
   
-  <project name="meta-exor"         remote="exor"       dest-branch="zeus"   revision="131d01f1cdcddc16b27ad7f4cbcf8ec4fe53e9f3" path="git/meta-exor" />
-  <project name="meta-qt5"          remote="qt5"        dest-branch="zeus"   revision="653e12fdb522c19a7467acb85a77d8b3477671cb" path="git/meta-qt5" />
-  <project name="meta-browser"      remote="OSS"        dest-branch="zeus"   revision="1f4ff4a3cbddff0802d809973f930ef21a3ebb54" path="git/meta-browser"/>
-  <project name="poky"              remote="yocto"      dest-branch="zeus"   revision="24046332599cc528834df515a90babc83b7cd570" path="git/yocto-poky"/>
-  <project name="meta-openembedded" remote="oe"         dest-barnch="zeus"   revision="aad5b3d070cd8c58828b0975cf861d8ebc90f460" path="git/yocto-meta-openembedded" />
-  <project name="meta-freescale"    remote="Freescale"  dest-branch="zeus"   revision="218e7c48e6d7b95f61a9991c0d3c3bf4b38a34c4" path="git/meta-freescale"   />
+  <project name="meta-exor"         remote="exor"       dest-branch="kirkstone"   revision="9df620251a4eadcd10f12970536740f2d0bfdde9" path="git/meta-exor" />
+  <project name="poky"              remote="yocto"      dest-branch="kirkstone"   revision="a5ea426b1da472fc8549459fff3c1b8c6e02f4b5" path="git/poky"/>
+  <project name="meta-openembedded" remote="oe"         dest-barnch="kirkstone"   revision="fcc7d7eae82be4c180f2e8fa3db90a8ab3be07b7" path="git/meta-openembedded" />
+  <project name="meta-freescale"    remote="Freescale"  dest-branch="kirkstone"   revision="24ec778deb92f3ca3372cb5f4df56edcc0e899ed" path="git/meta-freescale"   />
 </manifest>

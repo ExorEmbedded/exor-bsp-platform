@@ -13,9 +13,9 @@ Download the BSP source:
 
 [source,console]
 $: PATH=${PATH}:~/bin
-$: mkdir exor-yocto-5.0
-$: cd exor-yocto-5.0
-$: repo init -u https://github.com/ExorEmbedded/exor-bsp-platform -b zeus
+$: mkdir exor-yocto-6.0
+$: cd exor-yocto-6.0
+$: repo init -u https://github.com/ExorEmbedded/exor-bsp-platform -b kirkstone
 $: repo sync
 
 At the end of the commands you have every metadata you need to start work with.
@@ -23,13 +23,13 @@ At the end of the commands you have every metadata you need to start work with.
 To start a simple image build:
 
 [source,console]
-$: source git/yocto-poky/oe-init-build-env build
+$: source git/poky/oe-init-build-env build
 $: cp ../git/meta-exor/conf/bblayers.conf.sample conf/bblayers.conf
 $: cp ../git/meta-exor/conf/local.conf.sample conf/local.conf
-$: bitbake core-image-exor-x11
+$: bitbake core-image-exor-wayland
 
 You can use any directory to host your build.
 
-The source code is checked out at `exor-yocto-5.0/git`.
+The source code is checked out at `exor-yocto-6.0/git`.
 
 
