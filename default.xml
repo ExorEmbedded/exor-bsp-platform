@@ -3,11 +3,11 @@
   <default remote="exor" revision="default" sync-j="4" />
 
   <!-- You can have as many remote repositories as you like -->
-  <remote name="exor"       fetch="git://github.com/ExorEmbedded" />
+  <remote name="exor"       fetch="https://github.com/ExorEmbedded" />
   <remote name="yocto"      fetch="git://git.yoctoproject.org" />
   <remote name="oe"         fetch="git://git.openembedded.org" />
-  <remote name="qt5"        fetch="git://github.com/meta-qt5" />
-  <remote name="Freescale"  fetch="git://github.com/Freescale" />
+  <remote name="qt5"        fetch="https://github.com/meta-qt5" />
+  <remote name="Freescale"  fetch="https://github.com/Freescale" />
   
   <project name="meta-exor"         remote="exor"       revision="3c03e79dc25ed2f5fb85c1374a747465098cb8e4" path="git/meta-exor" />
   <project name="meta-qt5"          remote="qt5"        revision="bf68f8b8f5a31c9814a09f6c4e145dda7cdd8634" path="git/meta-qt5" />
